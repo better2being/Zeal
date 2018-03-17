@@ -7,6 +7,8 @@ ADDED from E:\AppProjects\Zeal\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from E:\AppProjects\Zeal\app\src\main\AndroidManifest.xml
 	android:versionName
 		ADDED from E:\AppProjects\Zeal\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\AppProjects\Zeal\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AppProjects\Zeal\app\src\main\AndroidManifest.xml
 	android:versionCode
 		ADDED from E:\AppProjects\Zeal\app\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from E:\AppProjects\Zeal\app\src\main\AndroidManifest.xml
