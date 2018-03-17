@@ -11,15 +11,15 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
+/**
  * 2016/2/25
- * text读取内容工具
+ * text璇诲彇鍐呭宸ュ叿 閫氳繃涓�涓狪nputStream鑾峰彇鍐呭 閫氳繃txt鏂囦欢鐨勮矾寰勮幏鍙栧叾鍐呭
  */
 
 public class TextReader {
 
-	/*
-	 * 通过一个InputStream获取内容
+	/**
+	 * 閫氳繃涓�涓狪nputStream鑾峰彇鍐呭
 	 */
 	public static List<String> getString(InputStream inputStream) {
 		InputStreamReader inputStreamReader = null;
@@ -41,8 +41,8 @@ public class TextReader {
 		return textList;
 	}
 	
-	/*
-	 * 通过txt文件的路径获取其内容
+	/**
+	 * 閫氳繃txt鏂囦欢鐨勮矾寰勮幏鍙栧叾鍐呭
 	 */
 	public static List<String> getString(String filePath) {
 		File file = new File(filePath);

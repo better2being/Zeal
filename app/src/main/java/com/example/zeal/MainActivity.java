@@ -54,9 +54,9 @@ public class MainActivity extends BaseActivity {
 	private Handler handler = new Handler() {
 		
 		public void handleMessage(Message msg) {
-			// ¸üĞÂ½ø¶ÈÌõ
+			// æ›´æ–°è¿›åº¦æ¡
 			seekBar.setProgress(msg.arg1);
-			// ¸ü¸ÄImageButtonÍ¼±ê
+			// æ›´æ”¹ImageButtonå›¾æ ‡
 			switch(msg.arg2) {
 				case 1:
 					play_or_pause.setImageResource(R.drawable.play);
@@ -65,7 +65,7 @@ public class MainActivity extends BaseActivity {
 					play_or_pause.setImageResource(R.drawable.pause);
 					break;
 			}
-			// ¸üĞÂTextView
+			// æ›´æ–°TextView
 			switch (msg.arg1) {
 				case 18:
 					title.setImageResource(R.drawable.title);
@@ -301,7 +301,7 @@ public class MainActivity extends BaseActivity {
 			@Override
 			public void onCompletion(MediaPlayer mp) {
 				// TODO Auto-generated method stub
-				// ²¥·ÅÍê³É½áÊøµ±Ç°Activity
+				// æ’­æ”¾å®Œæˆç»“æŸå½“å‰Activity
 				Intent to_end = new Intent(MainActivity.this, EndActivity.class);
 				startActivity(to_end);
 				MainActivity.this.finish();
@@ -341,7 +341,7 @@ public class MainActivity extends BaseActivity {
 						message.arg2 = 2;
 					}
 					handler.sendMessage(message);
-					// Ã¿´ÎÑÓ³Ù200ºÁÃëÔÙÆô¶¯Ïß³Ì
+					// æ¯æ¬¡å»¶è¿Ÿ200æ¯«ç§’å†å¯åŠ¨çº¿ç¨‹
 					handler.postDelayed(this, 200);
 				} catch (Exception e) {
 					e.printStackTrace();

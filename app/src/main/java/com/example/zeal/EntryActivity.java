@@ -21,10 +21,10 @@ public class EntryActivity extends BaseActivity {
 			
 			@Override
 			public void run() {
-				startActivity(to_main);	// 启动新的activity
+				startActivity(to_main);	// 鍚姩鏂扮殑activity
 				EntryActivity.this.finish();
 			}
 		};
-		timer.schedule(task, 1000 * 3);	// 3秒后执行
+		timer.schedule(task, 1000 * 3);	// 3绉掑悗鎵ц
 	}
 }
